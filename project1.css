@@ -1,0 +1,110 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.container{
+    background: #1d2026;
+    min-height: 100vh;
+    width: 100%;
+    color: #fff;
+    position: relative;
+}
+nav{
+    
+    display: flex;
+    align-items: center;
+    padding: 2vw 8%;
+    
+    
+}
+nav .logo{
+    cursor: pointer;
+}
+nav ul{
+    flex:1;
+    text-align: right;
+}
+nav ul li{
+    list-style: none;
+    display: inline-block;
+    margin: 0 2vw;
+}
+nav ul li a{
+  text-decoration: none;
+  color: #fff;
+ font-size: 1.25vw;
+
+
+}
+
+button{
+    background: #efefef;
+    height: 2vw;
+    width: 4vw;
+    border-radius: 2vw;
+    border: 0;
+    outline: 0;
+    cursor: pointer;
+    transition: background 0.5s;
+}
+
+button span{
+    display: block;
+    background: #999;
+    height: 2vw;
+    width: 2vw;
+    border-radius: 50%;
+    margin-left: .125vw;
+    transition: background 0.5s , margin-left  0.5s;
+}
+.Lamp-container{
+    position: absolute;
+    top: -5vw;
+    left: 28%;
+    width: 10vw;
+}
+.lamp{
+width: 100%;
+}
+.light{
+    position: absolute;   
+    top: 98%;
+    left: 45%;
+    transform: translateX(-50%);
+    width: 35vw;
+opacity: 0;
+transition: opacity 0.5s;
+}
+.content{
+    max-width: 45vw;
+    margin-top: 7%;
+    margin-left: 50%;
+}
+.content h1{
+  font-size: 4vw;
+  font-weight: 41vw;
+  color: rgb(255, 0, 0);
+}
+.content a{
+    text-decoration: none;
+    background: #00986f;
+    padding: 1vw 4vw;
+    display: inline-block;
+    font-size: 1.5vw;
+    margin-top: 1.5vw;
+    border-radius: 3vw;
+}
+  
+.active{
+    background: #00986f;
+}
+
+.active span{
+    background: #ffffff;
+   margin-left: 2.1vw;  
+}
+
+.on{
+    opacity: 1;
+}
