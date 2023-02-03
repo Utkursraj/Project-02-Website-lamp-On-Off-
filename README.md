@@ -1,7 +1,7 @@
 # Project-1
 
 
-https://utkursraj.github.io/Project-1/
+https://utkursraj.github.io/Project-02-Website-lamp-On-Off-/
 
 
 
